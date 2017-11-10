@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="?attr/colorSetBackground"
+    android:id="@+id/line_set">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:id="@+id/setting_view_back"
+        android:src="@drawable/u48"
+        android:paddingRight="@dimen/small_2dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:id="@+id/shengYing"
+        android:layout_below="@id/setting_view_back">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="match_parent"
+            android:text="@string/sound"
+            android:gravity="bottom"
+            android:textColor="?attr/colorSetTextA"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/setting_view_openSound"
+            android:src="@drawable/u6"
+            android:layout_gravity="bottom"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:text="@string/On"
+            android:gravity="bottom"
+            android:id="@+id/setting_text_openSound"
+            android:textColor="?attr/colorSetTextB" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="80"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_below="@id/shengYing">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/theme"
+            android:textColor="?attr/colorSetTextA"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:id="@+id/setting_rGroup_theme"
+            android:layout_gravity="center_horizontal">
+            <RadioButton
+                android:id="@+id/setting_rBtn_BlueTheme_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/blue" />
+            <RadioButton
+                android:id="@+id/setting_rBtn_RedTheme_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/red"/>
+            <RadioButton
+                android:id="@+id/setting_rBtn_NightTheme_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gray"/>
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

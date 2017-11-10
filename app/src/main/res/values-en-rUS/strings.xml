@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">OscScope</string>
+
+    <!--  AboutActivity -->
+    <string name="developers">Developers</string>
+    <string name="names">凌志云 董婉玉 赵彦 郑昱津</string>
+    <string name="func_intro">App Function Introduction</string>
+    <string name="abstrution">\t    \t    画出相应的波形，
+    蓝牙发送部分用单片机或电脑作为下位机，手机端可以显示一定频率范围内的波形数据，
+    并且示波器的线形颜色可调，时间轴可调，幅度可调，触发电平和方式可调，
+    可实时测量出波形数据，包括Vpp，频率。</string>
+
+    <!--  Scope -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled">Bluetooth was not enabled. Using Offline Mode.</string>
+    <string name="title_connecting">connecting…</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+    <string name="timeScale">Time：sec/grid</string>
+    <string name="amplScale">Amp：V/grid</string>
+    <string name="couple_method">Couple Method：</string>
+    <string name="trig_method">Trig Method：</string>
+    <string name="trig_vol">Offset：</string>
+    <string name="sampl_rate">Sample Rate：</string>
+    <string name="prt_sc">PrtSc</string>
+    <string name="trig_up">Offset+</string>
+    <string name="trig_dn">Offset-</string>
+    <string name="stop">STOP</string>
+    <string name="run">RUN</string>
+
+    <string name="landscape_note">Switch to landscape mode</string>
+    <string name="connectedTo">"Connected to "</string>
+    <string name="onDraw_note">Start drawing wave！</string>
+    <string name="pause_note">Wave drawing paused！</string>
+    <string name="savedImageTo">Wave saved to</string>
+    <string name="Failed">Save Image Failed!</string>
+    <string name="closed">Off</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices…</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!--  Settings -->
+    <string name="sound">Sound：</string>
+    <string name="On">On</string>
+    <string name="theme">Theme：</string>
+    <string name="blue">Sky Blue</string>
+    <string name="red">Hot Red</string>
+    <string name="gray">Silence Gray</string>
+
+    <!-- Options Menu -->
+    <string name="connect">Connect a device</string>
+    <string name="discoverable">Make discoverable</string>
+    <string name="offline">Offline!</string>
+
+</resources>

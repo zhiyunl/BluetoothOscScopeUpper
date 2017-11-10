@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">安卓示波器</string>
+
+    <!--  MainActivity -->
+    <string name="Scope">示波器</string>
+    <string name="Settings">设置</string>
+    <string name="About">关于</string>
+
+    <!--  AboutActivity -->
+    <string name="developers">开发人员</string>
+    <string name="names">凌志云 董婉玉 赵彦 郑昱津</string>
+    <string name="func_intro">App功能说明</string>
+    <string name="abstrution">\t    \t    画出相应的波形，
+    蓝牙发送部分用单片机或电脑作为下位机，手机端可以显示一定频率范围内的波形数据，
+    并且示波器的线形颜色可调，时间轴可调，幅度可调，触发电平和方式可调，
+    可实时测量出波形数据，包括Vpp，频率。</string>
+
+    <!--  Scope -->
+    <string name="not_connected">未连接设备</string>
+    <string name="bt_not_enabled">蓝牙未开启</string>
+    <string name="title_connecting">连接中…</string>
+    <string name="title_connected_to">已连接: </string>
+    <string name="title_not_connected">连接失败</string>
+    <string name="freq">Freq:</string>
+    <string name="timeScale">时间：秒/格</string>
+    <string name="amplScale">幅值：伏/格</string>
+    <string name="couple_method">耦合方式：</string>
+    <string name="trig_method">触发方式：</string>
+    <string name="trig_vol">偏置电压：</string>
+    <string name="sampl_rate">采样率：</string>
+    <string name="prt_sc">截图</string>
+    <string name="trig_up">偏置V+</string>
+    <string name="trig_dn">偏置V-</string>
+    <string name="stop">停止</string>
+    <string name="run">运行</string>
+
+
+    <string name="landscape_note">已自动切换为横屏使用</string>
+    <string name="connectedTo">"连接到 "</string>
+    <string name="onDraw_note">开始绘制波形！</string>
+    <string name="pause_note">波形绘制已暂停！</string>
+    <string name="savedImageTo">波形保存到</string>
+    <string name="Failed">截图失败</string>
+    <string name="closed">已关闭</string>
+    <!--  DeviceListActivity -->
+    <string name="scanning">扫描设备中…</string>
+    <string name="select_device">选择要连接的设备</string>
+    <string name="none_paired">没有已配对的设备</string>
+    <string name="none_found">未找到设备</string>
+    <string name="title_paired_devices">已配对设备</string>
+    <string name="title_other_devices">其他可用设备</string>
+    <string name="button_scan">搜索设备</string>
+
+    <!--  Settings -->
+    <string name="sound">声音：</string>
+    <string name="On">已打开</string>
+    <string name="theme">主题：</string>
+    <string name="blue">天空蓝</string>
+    <string name="red">活力红</string>
+    <string name="gray">沉默灰</string>
+
+    <!-- Options Menu -->
+    <string name="connect">连接蓝牙</string>
+    <string name="discoverable">蓝牙可见</string>
+    <string name="offline">离线模式</string>
+
+
+</resources>

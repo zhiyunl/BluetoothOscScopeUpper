@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="T">
+        <item>1us</item>
+        <item>2us</item>
+        <item>5us</item>
+        <item>10us</item>
+        <item>20us</item>
+    </string-array>
+
+    <string-array name="A">
+        <item>500mV</item>
+        <item>1V</item>
+        <item>2V</item>
+        <item>5V</item>
+    </string-array>
+
+    <string-array name="O">
+        <item>直流耦合</item>
+        <item>交流耦合</item>
+    </string-array>
+
+    <string-array name="C">
+        <item>上升沿触发</item>
+        <item>下降沿触发</item>
+        <item>电平触发</item>
+    </string-array>
+
+    <string-array name="color">
+        <item>red</item>
+        <item>blue</item>
+        <item>green</item>
+    </string-array>
+
+
+</resources>

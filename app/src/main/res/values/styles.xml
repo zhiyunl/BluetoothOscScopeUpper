@@ -1,0 +1,97 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BlueTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#5b9ae6</item>
+        <item name="colorPrimaryDark">#014ba6</item>
+        <item name="colorAccent">#0077ff</item>
+
+        <item name="colorMainTextButton">#003576</item>
+        <item name="colorMainBackground">#5b9ae6</item>
+
+        <item name="colorAboutText">#ffffff</item>
+        <item name="colorAboutBackground">#5c9be6</item>
+
+        <item name="colorSetTextA">#034da7</item>
+        <item name="colorSetTextB">#d30b0b0b</item>
+        <item name="colorSetBackground">#53d6e4f4</item>
+
+        <item name="colorScopeScopeBackground">#0c0c0c</item>
+        <item name="colorScopeTextA">#0c0c0c</item>
+        <item name="colorScopeSpinner">#b5b5b5</item>
+        <item name="colorScopeTextB">#0c0c0c</item>
+        <item name="colorScopeTextBackground">#dcdcdc</item>
+        <item name="colorScopeTextButton">#0c0c0c</item>
+        <item name="colorScopeBackground">#ffffff</item>
+    </style>
+
+    <style name="RedTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#f92828</item>
+        <item name="colorPrimaryDark">#b30101</item>
+        <item name="colorAccent">#ff0127</item>
+
+        <item name="colorMainTextButton">#7e0000</item>
+        <item name="colorMainBackground">#f92828</item>
+
+        <item name="colorAboutText">#ffffff</item>
+        <item name="colorAboutBackground">#f92a2a</item>
+
+        <item name="colorSetTextA">#b40303</item>
+        <item name="colorSetTextB">#000000</item>
+        <item name="colorSetBackground">#ffffff</item>
+
+
+        <item name="colorScopeScopeBackground">#0c0c0c</item>
+        <item name="colorScopeTextA">#0c0c0c</item>
+        <item name="colorScopeSpinner">#b5b5b5</item>
+        <item name="colorScopeTextB">#0c0c0c</item>
+        <item name="colorScopeTextBackground">#dcdcdc</item>
+        <item name="colorScopeTextButton">#0c0c0c</item>
+        <item name="colorScopeBackground">#ffffff</item>
+    </style>
+    <style name="NightTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#bec4c3</item>
+        <item name="colorPrimaryDark">#302f2f</item>
+        <item name="colorAccent">#8e9392</item>
+
+        <item name="colorMainTextButton">#484545</item>
+        <item name="colorMainBackground">#6e6969</item>
+
+        <item name="colorAboutText">#f7f2f2</item>
+        <item name="colorAboutBackground">#b4afaf</item>
+
+        <item name="colorSetTextA">#949090</item>
+        <item name="colorSetTextB">#000000</item>
+        <item name="colorSetBackground">#ffffff</item>
+
+
+        <item name="colorScopeScopeBackground">#0c0c0c</item>
+        <item name="colorScopeTextA">#0c0c0c</item>
+        <item name="colorScopeSpinner">#b5b5b5</item>
+        <item name="colorScopeTextB">#0c0c0c</item>
+        <item name="colorScopeTextBackground">#dcdcdc</item>
+        <item name="colorScopeTextButton">#0c0c0c</item>
+        <item name="colorScopeBackground">#ffffff</item>
+    </style>
+    <style name="DialogRed" parent="Base.V7.Theme.AppCompat.Dialog">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#f92828</item>
+        <item name="colorPrimaryDark">#b30101</item>
+        <item name="colorAccent">#ff0127</item>
+
+    </style>
+
+    <style name="DialogBlue" parent="Base.V7.Theme.AppCompat.Dialog">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#5b9ae6</item>
+        <item name="colorPrimaryDark">#014ba6</item>
+        <item name="colorAccent">#0077ff</item>
+    </style>
+
+    <style name="DialogNight" parent="Base.V7.Theme.AppCompat.Dialog">
+        <item name="colorPrimary">#bec4c3</item>
+        <item name="colorPrimaryDark">#302f2f</item>
+        <item name="colorAccent">#8e9392</item>
+    </style>
+</resources>

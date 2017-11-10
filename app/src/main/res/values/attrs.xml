@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorPrimary" format="color" />
+    <attr name="colorPrimaryDark" format="color" />
+    <attr name="colorAccent" format="color" />
+
+    <attr name="colorMainButton" format="color" />
+    <attr name="colorMainLightButton" format="color" />
+    <attr name="colorMainTextButton" format="color" />
+    <attr name="colorMainBackground" format="color" />
+
+    <attr name="colorAboutText" format="color" />
+    <attr name="colorAboutBackground" format="color" />
+
+    <attr name="colorSetTextA" format="color" />
+    <attr name="colorSetTextB" format="color" />
+    <attr name="colorSetBackground" format="color" />
+
+    <attr name="colorScopeScopeBackground" format="color" />
+    <attr name="colorScopeTextA" format="color" />
+    <attr name="colorScopeSpinner" format="color" />
+    <attr name="colorScopeTextB" format="color" />
+    <attr name="colorScopeTextBackground" format="color" />
+    <attr name="colorScopeButton" format="color" />
+    <attr name="colorScopeLightButton" format="color" />
+    <attr name="colorScopeTextButton" format="color" />
+    <attr name="colorScopeBackground" format="color" />
+
+</resources>
